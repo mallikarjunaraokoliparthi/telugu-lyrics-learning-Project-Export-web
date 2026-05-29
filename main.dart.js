@@ -25506,8 +25506,8 @@ this.d=c},
 a5m:function a5m(){},
 oU:function oU(a,b){this.a=a
 this.b=b},
-aA2(a,b,c,d,e,f,g){var s=c==null?a+".mp3":c,r=e==null?a+"_subtitles.enc":e
-return new A.hG(b,g,a,d,s,r,f==null?a+"_timings_data.enc":f)},
+aA2(a,b,c,d,e,f,g){var s=c==null?a+".mp3":c,r=e==null?"subtitles.enc":e
+return new A.hG(b,g,a,d,s,r,f==null?"timings_data.enc":f)},
 hG:function hG(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
@@ -85397,9 +85397,9 @@ if(q==null)q="telugu_songs_lyrics_learning_songs_part1"
 p=a.h(0,"mp3_file")
 if(p==null)p=m+".mp3"
 o=a.h(0,"subtitles_file")
-if(o==null)o=m+"_subtitles.enc"
+if(o==null)o="subtitles.enc"
 n=a.h(0,"timings_file")
-return A.aA2(m,s,p,q,o,n==null?m+"_timings_data.enc":n,r)},
+return A.aA2(m,s,p,q,o,n==null?"timings_data.enc":n,r)},
 $S:561}
 A.z2.prototype={
 ap(){return new A.RX(null,null)}}
